@@ -8,7 +8,6 @@ pinpoint = boto3.client('pinpoint')
 
 def lambda_handler(event, context):
     ''' 
-
     EXAMPLES:
     DONE John Doe # update google docs with timestamp of last contact
     DONE John Doe . NOTES had a kid, loves spinach, birthday Feb 10th # update google docs with timestamp of last contact and notes
